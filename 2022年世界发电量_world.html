@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/maps/world.js"></script>
+
+</head>
+<body >
+    <div id="b4706ca74f834c678bf973b823692733" class="chart-container" style="width:900px; height:500px; "></div>
+    <script>
+        var chart_b4706ca74f834c678bf973b823692733 = echarts.init(
+            document.getElementById('b4706ca74f834c678bf973b823692733'), 'white', {renderer: 'canvas'});
+        var option_b4706ca74f834c678bf973b823692733 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "color": [
+        "#5470c6",
+        "#91cc75",
+        "#fac858",
+        "#ee6666",
+        "#73c0de",
+        "#3ba272",
+        "#fc8452",
+        "#9a60b4",
+        "#ea7ccc"
+    ],
+    "series": [
+        {
+            "type": "map",
+            "name": "2022\u5e74\u53d1\u7535\u91cf\uff08\u5355\u4f4d\uff1a\u4ebf\u5343\u74e6\u65f6\uff09",
+            "label": {
+                "show": false,
+                "margin": 8
+            },
+            "map": "world",
+            "data": [
+                {
+                    "name": "China",
+                    "value": 88487
+                },
+                {
+                    "name": "Russia",
+                    "value": 11669
+                },
+                {
+                    "name": "Japan",
+                    "value": 10336
+                },
+                {
+                    "name": "Brazil",
+                    "value": 6772
+                },
+                {
+                    "name": "Canada",
+                    "value": 6596
+                },
+                {
+                    "name": "Koran",
+                    "value": 6203
+                },
+                {
+                    "name": "France",
+                    "value": 4677
+                },
+                {
+                    "name": "Germany",
+                    "value": 5773
+                },
+                {
+                    "name": "United States",
+                    "value": 45477
+                },
+                {
+                    "name": "India",
+                    "value": 18580
+                },
+                {
+                    "name": "Mexico",
+                    "value": 3407
+                },
+                {
+                    "name": "Australia",
+                    "value": 2736
+                },
+                {
+                    "name": "Italy",
+                    "value": 2873
+                },
+                {
+                    "name": "Iran",
+                    "value": 3481
+                },
+                {
+                    "name": "Turkey",
+                    "value": 3262
+                }
+            ],
+            "roam": true,
+            "aspectScale": 0.75,
+            "nameProperty": "name",
+            "selectedMode": false,
+            "zoom": 1,
+            "zlevel": 0,
+            "z": 2,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "mapValueCalculation": "sum",
+            "showLegendSymbol": true,
+            "emphasis": {},
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "2022\u5e74\u53d1\u7535\u91cf\uff08\u5355\u4f4d\uff1a\u4ebf\u5343\u74e6\u65f6\uff09"
+            ],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "title": [
+        {
+            "show": true,
+            "text": "Map-\u4e16\u754c\u5730\u56fe",
+            "target": "blank",
+            "subtarget": "blank",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false
+        }
+    ],
+    "visualMap": {
+        "show": true,
+        "type": "piecewise",
+        "min": 0,
+        "max": 100000,
+        "inRange": {
+            "color": [
+                "#50a3ba",
+                "#eac763",
+                "#d94e5d"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "hoverLink": true,
+        "orient": "vertical",
+        "padding": 5,
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 14,
+        "borderWidth": 0,
+        "pieces": [
+            {
+                "min": 0,
+                "max": 3000,
+                "label": "0~3000",
+                "color": "#ABE0AC"
+            },
+            {
+                "min": 3000,
+                "max": 4000,
+                "label": "3000~4000",
+                "color": "#72F080"
+            },
+            {
+                "min": 4000,
+                "max": 7000,
+                "label": "4000~7000",
+                "color": "#6DD46D"
+            },
+            {
+                "min": 7000,
+                "max": 12000,
+                "label": "7000~12000",
+                "color": "#00DF00"
+            },
+            {
+                "min": 12000,
+                "max": 42000,
+                "label": "12000~40000",
+                "color": "#3CBD3E"
+            },
+            {
+                "min": 42000,
+                "max": 50000,
+                "label": "40000~50000",
+                "color": "#209E48"
+            },
+            {
+                "min": 50000,
+                "max": 100000,
+                "label": "50000~100000",
+                "color": "#188017"
+            }
+        ]
+    }
+};
+        chart_b4706ca74f834c678bf973b823692733.setOption(option_b4706ca74f834c678bf973b823692733);
+    </script>
+</body>
+</html>
