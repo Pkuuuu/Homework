@@ -2,7 +2,7 @@
 
 ## 作业一  中国地图与世界地图
 
-作业描述：
+作业描述：统计了2023年中国各行政区（不包括港澳台）的发电量与2022年世界部分国家的发电量
 
 作业链接：[https://pkuuuu.github.io/Homework/2023年全国发电量统计_map.html](https://pkuuuu.github.io/Homework/2023年全国发电量统计_map.html)
 
