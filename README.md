@@ -9,9 +9,9 @@
 [https://pkuuuu.github.io/Homework/2022年世界发电量_world.html](https://pkuuuu.github.io/Homework/2022年世界发电量_world.html)
 ## 作业二  组合图表
 
-作业描述：
+作业描述：统计了部分省份2018-2023年的人均可支配收入情况，以及2023年人均可支配收入涨幅
 
-作业链接：
+作业链接：[https://pkuuuu.github.io/Homework/2023年全国发电量统计_map.html](https://pkuuuu.github.io/Homework/2023年全国发电量统计_map.html)
 
 ## 作业三  词频统计图
 
